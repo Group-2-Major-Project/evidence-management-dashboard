@@ -1,0 +1,11 @@
+.container {
+  @apply m-4 flex justify-evenly border-2 bg-blue-500;
+}
+
+.activeTab {
+  @apply pointer-events-none m-4 rounded-xl border-2 px-2 text-2xl font-extrabold text-white;
+}
+
+.tab {
+  @apply m-4 cursor-pointer text-2xl text-gray-300 underline-offset-8 transition duration-200 hover:text-white hover:underline;
+}

@@ -11,7 +11,7 @@ const getActiveTab = () => {
   const path = window.location.pathname;
 
   if (path == "/") {
-    return "home";
+    return "vehicle";
   } else {
     return path.substring(1);
   }
