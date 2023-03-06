@@ -14,7 +14,7 @@ const Title = () => {
         />
       </div>
       <div className={styles.titleContainer}>
-        <div className={styles.title}>Kerala Police</div>
+        <div className={styles.title}>KERALA POLICE</div>
         <div className={styles.subtitle}>Integrated e-Challan System</div>
       </div>
     </div>
