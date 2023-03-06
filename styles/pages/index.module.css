@@ -1,0 +1,15 @@
+.container {
+  @apply flex h-[calc(65vh)] w-screen flex-col items-center justify-evenly border text-center lg:h-[calc(50vh)];
+}
+
+.inputLabel {
+  @apply text-3xl lg:text-4xl;
+}
+
+.input {
+  @apply mt-16 mb-32 rounded-md border-4 text-2xl lg:mt-8 lg:text-5xl;
+}
+
+.submit {
+  @apply w-11/12 rounded-xl bg-blue-500 p-4 text-white hover:font-bold lg:w-3/4;
+}
