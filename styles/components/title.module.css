@@ -1,0 +1,21 @@
+.container {
+  @apply m-4 flex items-center rounded-xl bg-blue-700 text-white lg:justify-center;
+}
+
+.image {
+  @apply m-4 w-24 lg:mr-32 lg:w-64;
+}
+
+.titleContainer {
+  @apply text-center;
+}
+
+.title {
+  @apply text-2xl font-extrabold lg:mb-5 lg:text-8xl;
+  text-shadow: 1px 1px 2px black;
+}
+
+.subtitle {
+  @apply text-lg font-bold lg:mt-5 lg:text-4xl;
+  text-shadow: 1px 1px 2px black;
+}
