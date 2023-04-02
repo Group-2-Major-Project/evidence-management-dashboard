@@ -1,0 +1,19 @@
+.container {
+  @apply flex h-[80vh] flex-col items-center justify-evenly lg:h-[65vh];
+}
+
+.title {
+  @apply text-5xl font-bold lg:text-7xl;
+}
+
+.container > form {
+  @apply flex flex-col;
+}
+
+.input {
+  @apply my-4 rounded-lg border-4 border-gray-500 p-2 text-lg lg:text-2xl;
+}
+
+.submit {
+  @apply mt-16 rounded-xl border-4 border-blue-500 p-4 text-center text-xl transition duration-200 hover:bg-blue-500 hover:text-white lg:mt-24;
+}
