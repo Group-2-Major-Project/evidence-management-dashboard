@@ -6,10 +6,10 @@ const Register = () => {
     <div className={styles.container}>
       <div className={styles.title}>Register</div>
       <div className={styles.buttonContainer}>
-        <Link href="/user-Register">
+        <Link href="/user-register">
           <div className={styles.label}>User</div>
         </Link>
-        <Link href="/mvd-Register">
+        <Link href="/mvd-register">
           <div className={styles.label}>MVD</div>
         </Link>
       </div>
