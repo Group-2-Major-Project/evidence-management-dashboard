@@ -1,0 +1,15 @@
+.container {
+  @apply flex h-[80vh] flex-col items-center justify-evenly lg:h-[65vh];
+}
+
+.title {
+  @apply text-5xl font-bold lg:text-7xl;
+}
+
+.buttonContainer {
+  @apply w-2/3 lg:w-1/3;
+}
+
+.label {
+  @apply my-8 rounded-xl border-4 border-blue-500 p-4 text-center text-xl transition duration-200 hover:bg-blue-500 hover:text-white;
+}
