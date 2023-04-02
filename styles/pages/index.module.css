@@ -1,15 +1,15 @@
 .container {
-  @apply flex h-[calc(65vh)] w-screen flex-col items-center justify-evenly border text-center lg:h-[calc(50vh)];
+  @apply flex h-[80vh] flex-col items-center justify-evenly lg:h-[65vh];
 }
 
-.inputLabel {
-  @apply text-3xl lg:text-4xl;
+.title {
+  @apply text-5xl font-bold lg:text-7xl;
 }
 
-.input {
-  @apply mt-16 mb-32 rounded-md border-4 text-2xl lg:mt-8 lg:text-5xl;
+.buttonContainer {
+  @apply w-2/3 lg:w-1/3;
 }
 
-.submit {
-  @apply w-11/12 rounded-xl bg-blue-500 p-4 text-white hover:font-bold lg:w-3/4;
+.label {
+  @apply my-8 rounded-xl border-4 border-blue-500 p-4 text-center text-xl transition duration-200 hover:bg-blue-500 hover:text-white;
 }
