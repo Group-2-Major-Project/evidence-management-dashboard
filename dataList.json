@@ -10,5 +10,11 @@
       "username": "asdf",
       "password": "temp"
     }
+  ],
+  "accidents": [
+    {
+      "vehicle_no": "KL07AV5510",
+      "image": "1.jpg"
+    }
   ]
 }
