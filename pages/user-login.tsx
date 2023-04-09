@@ -4,7 +4,7 @@ const UserLogin = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>User Login</div>
-      <form action="/" method="post">
+      <form action="/api/user-auth" method="POST">
         <input
           name="username"
           type="text"
