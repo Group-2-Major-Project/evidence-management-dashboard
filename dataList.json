@@ -5,5 +5,10 @@
       "password": "pass"
     }
   ],
-  "mvd": []
+  "mvd": [
+    {
+      "username": "asdf",
+      "password": "temp"
+    }
+  ]
 }

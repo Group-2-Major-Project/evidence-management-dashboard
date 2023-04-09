@@ -4,7 +4,7 @@ const MVDLogin = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>MVD Login</div>
-      <form action="/" method="post">
+      <form action="/api/mvd-auth" method="post">
         <input
           name="username"
           type="text"
