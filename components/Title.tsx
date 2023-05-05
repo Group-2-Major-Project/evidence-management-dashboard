@@ -14,8 +14,17 @@ const Title = () => {
         />
       </div>
       <div className={styles.titleContainer}>
-        <div className={styles.title}>KERALA POLICE</div>
+        <div className={styles.title}>KERALA MVD</div>
         <div className={styles.subtitle}>Integrated e-Challan System</div>
+      </div>
+      <div className={styles.image}>
+        <Image
+          src="/logo.png"
+          alt="Logo of Kerala Police"
+          width={284}
+          height={274}
+          priority
+        />
       </div>
     </div>
   );
